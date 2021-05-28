@@ -1,0 +1,32 @@
+button{
+   border: 2px solid white;
+   border-radius: 100px;
+   display:inline-block;
+   width:65px;
+   height: 65px;
+   background-color:white;
+   }
+   .play{
+  background-image:url("images/playicon1.png");
+  background-size: cover;
+  color: white;
+  padding: 10px 20px;
+  border-radius:100px;
+}
+.pause{
+  background-image:url("images/pauseicon1.png");
+  background-size: cover;
+  color: white;
+  padding: 10px 20px;
+  border-radius:100px;
+}
+#mybutton {
+
+  position:fixed;
+  text-align: center;
+  bottom: 15px;
+  right: 55px;
+}
+button:hover{
+  border-color:green;
+}
